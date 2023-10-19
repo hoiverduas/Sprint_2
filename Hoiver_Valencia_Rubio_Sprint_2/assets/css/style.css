@@ -1,0 +1,423 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #2f2f2f;
+    
+    
+}
+
+
+.head{
+    
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color:#FF5733;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100%;
+
+}
+
+.navbar{
+
+    display: flex;
+ 
+ 
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left:1100px;
+    padding-top: 10px;
+    
+    
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+.nav-bar{
+   
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: -60px;
+  
+}
+
+.navbar a:hover{
+    background-color: #3f3f3f;
+
+}
+
+
+.header{
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    
+}
+
+.JavaDv_title{ 
+
+    color :white;
+    font-size: 50px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+.JavaDv_Home{
+    color : #FF5733;
+    font-size: 50px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../imag/imagebanner-01.jpg);
+    height: 80vh !important;
+    width: 97.5%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+   padding-right: 10px;
+}
+
+.JavaDv_P{
+    color :white;
+    width: 100vh;
+
+}
+
+.cta-button {
+
+    background-color: #FF5733;
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px;
+    margin-left: 13px;
+
+}
+
+.fotograf{
+
+display: flex;
+flex-direction: row;
+margin-top: 80px;
+height: 15%;
+   
+}
+
+.JavaDv_img{
+
+
+
+
+display: inline-block;
+justify-content: center;
+text-align: center;
+
+}
+
+.JavaDv_imag{
+
+   
+    width: 800px;
+    
+    
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+        
+    }
+
+
+
+.JavaDv_P_1{
+
+    color :white;
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 90px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+footer {
+    display: flex;
+    background:#e9eaec;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.resdes_sociales{
+    color: #FF5733;
+    margin-bottom: 10px;
+    margin-left: 56px;
+    margin-top: 20px;
+}
+
+
+.JavaDv_B{
+
+    display:flex;
+    flex-direction: row;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.JavaDV_Box_1{
+
+    padding-bottom: 15px;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+   
+}
+
+.JavaDV_Box_2{
+
+    padding-bottom: 20px;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+
+.JavaDV_Box_3{
+
+    
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+
+    
+}
+
+
+.JavaDV_Box_4{
+
+    color: #FF5733;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100vh;
+    padding-left: 70px;
+    
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.h1{
+    padding-left: 150px;
+    color: white;
+}
+
+
+
+.JavaDV_Box_5{
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FF5733;
+    width: 100vh;
+    padding-left: 70px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    
+}
+
+.h2{
+    padding-left: 150px;
+    color: white;
+}
+
+
+
+.JavaDV_Box_6 {
+    padding-top: 80px;
+    text-align: center;
+    color: #FF5733;
+    width: 100vh;
+    padding-left: 70px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.h3{
+    padding-left: 150px;
+    color: white;
+}
+
+
+.JavaDV_Box_7 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 145px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 145px;
+    width: 80%;
+    height: 80%;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+
+.JavaDV_Box_8{
+
+    color: #FF5733;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100vh;
+    padding-left: 70px;
+    margin-top: 30px;
+    margin-left: 200px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+
+.JavaDv_Box_C5{
+    display: flex;
+    justify-content:space-between;
+  
+}
+
+.JavaDv_Email{
+   
+    margin-left: 160px;
+    color: white;
+    
+    
+}
+
+.JavaDv_Phone{
+
+    
+    margin-right: 160px;
+    color: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #FF5733;
+}
+.Tabla{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+.JavaDv_Reting{
+
+    margin: 70px 80px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+
+.Rating_imag_1{
+
+    
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.JavaDv_Reting{
+
+    margin: 20px 200px;
+    
+}
+
+.Rating_imag_2{
+  
+    margin-right: 400px;
+    width: 100px;
+}
+
+
+
+.JavaDv_Rating_1{
+
+    margin: 70px 80px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+
+.Rating_imag_3{
+
+    
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.JavaDv_Rating_1{
+
+    margin: 60px 200px;
+    
+}
+
+
+
+.Rating_imag_4{
+  
+    margin-right: 400px;
+    width: 100px;
+}
+
+ol{
+    padding: 90px 200px;
+}
